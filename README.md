@@ -55,10 +55,10 @@ The dataset used consists of randomly selected Yelp reviews. Each review has two
    - Cleaning texts (removing punctuations/stopwords)
    - Tokenization
 2. **Term Frequency-Inverse Document Frequency (TF-IDF)**
-  - Compute the "relative frequency" that a word appears in a document compared to its frequency across all documents in the corpus
-  - More useful than "term frequency" for identifying "important" words in each document (high frequency in that document, low frequency in other documents)
-  - Useful for search engine relevance scoring, text summarization, document clustering, and classification
-  - Use to summarize random Yelp reviews
+   - Compute the "relative frequency" that a word appears in a document compared to its frequency across all documents in the corpus
+   - More useful than "term frequency" for identifying "important" words in each document (high frequency in that document, low frequency in other documents)
+   - Useful for search engine relevance scoring, text summarization, document clustering, and classification
+   - Use to summarize random Yelp reviews
 
 3. **Sentiment Analysis with TextBlob**
    - Calculating polarity and subjectivity scores using TextBlob 
